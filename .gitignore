@@ -1,0 +1,8 @@
+!.c
+!.gitignore
+.idea/
+a.out
+main
+main.i
+main.o
+main.s
