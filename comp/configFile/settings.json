@@ -1,0 +1,74 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "java.completion.importOrder": [
+
+        "java",
+        "javax",
+        "com",
+        "org"
+    ],
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home",
+    "java.configuration.maven.userSettings": "/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf/settings.xml",
+    "maven.executable.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/mvn",
+    "maven.terminal.useJavaHome": true,
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"
+        }
+    ],
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.suggestSmartCommit": false,
+    "extensions.ignoreRecommendations": false,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "openapi.securityAuditToken": "CiBtNPgbs5B1ZxP+/GiqhmoMdPlNYVzQLbA8QFjUnScofRIYyh8P/HPQFygv0XCRGeTicJg6cOwsJbkJGnGGORI2yW+ftFpWWd5DZepKl/9IFYvJhjeivk4DlDDtnZj5imUHft+x18czibI2HXd7SgJyihAEAza6uiaSgT9TZWuJbKu85wIPPcXni1LyFwepzoZCxXT6f3i9E2MkOwZyp793cWM6hnlzPBCue5+lTg==",
+    "workbench.colorTheme": "Obsidian",
+	"vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "C_Cpp.updateChannel": "Insiders"
+
+}

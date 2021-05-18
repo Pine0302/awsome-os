@@ -169,10 +169,10 @@ void main(){
     1194:	05 6c 2e 00 00       	add    $0x2e6c,%eax
     1199:	8d 45 08             	lea    0x8(%ebp),%eax
     119c:	89 45 fc             	mov    %eax,-0x4(%ebp)
-		d = (a > c) ? 1:0;
-		printf("%d\n",d);
-		d = (b>c)? 1:0;
-		printf("%d\n",d);
+		int t1 = 125;
+		int t2 = 80;
+		int sum = add(t1,t2);
+		return sum;
    	}
 }
     119f:	90                   	nop
