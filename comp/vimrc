@@ -53,7 +53,7 @@ set bufhidden=hide " 当buffer被丢弃的时候隐藏它
 " set colors
 " colorscheme evening " 设定配色方案
 set t_Co=256
-color molokai
+color molokai 
 " hilight function name
 autocmd BufNewFile,BufRead * :syntax match cfunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\>[^()]*)("me=e-2
 autocmd BufNewFile,BufRead * :syntax match cfunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\>\s*("me=e-1
@@ -133,3 +133,7 @@ filetype plugin indent on
 
 set completeopt=longest,menu
 set tags=./tags,./TAGS,tags;~,TAGS;~
+set et
+set ci
+set shiftwidth=2
+autocmd Filetype make setlocal noexpandtab
